@@ -51,26 +51,12 @@ export default function About() {
             />
           </div>
           <div>
-            <h2 className="text-2xl font-bold mb-6">Who We Are</h2>
-            <div className="space-y-6 text-lg">
-              <p className="leading-relaxed">
-                The Sikh Students Association at Sheridan College is a vibrant community of students dedicated
-                to promoting awareness of Sikhi while fostering an inclusive environment for all students,
-                regardless of their religion, caste, or race. We advocate for all Sheridan students, ensuring
-                that everyone feels supported and valued.
-              </p>
-              <p className="leading-relaxed">
-                Founded with the vision of creating a supportive space for Sikh students and those interested
-                in learning about Sikhi, we have grown into a dynamic organization that serves the entire
-                Sheridan community.
-              </p>
-              <p className="leading-relaxed">
-                Our association is run by students, for students, with the support of faculty advisors and
-                community leaders. We organize various events throughout the academic year, from cultural
-                celebrations to educational workshops, creating opportunities for learning, growth, and
-                connection for everyone.
-              </p>
-            </div>
+            <h2 className="text-2xl font-bold mb-4">Our Mission</h2>
+            <p className="text-lg mb-6">
+              The Sikh Students Association (SSA) at Sheridan College is dedicated to fostering a vibrant community that promotes Sikh values, 
+              cultural awareness, and student advocacy. We strive to create an inclusive environment where students can learn, grow, and connect 
+              while celebrating Sikh heritage and contributing positively to campus life.
+            </p>
           </div>
         </div>
 
@@ -121,19 +107,22 @@ export default function About() {
 
         <div className="mb-16">
           <h2 className="text-2xl font-bold mb-8 text-center">Our Constitution</h2>
-          <div className="bg-[rgba(8,2,46,0.8)] p-8 rounded-lg max-w-3xl mx-auto">
-            <p className="text-lg text-center mb-6">
+          <div className="bg-gradient-to-br from-[rgba(8,2,46,0.95)] to-[rgba(8,2,46,0.85)] p-8 rounded-lg max-w-3xl mx-auto border border-blue-400/30 hover:border-blue-400/60 shadow-lg transition-all duration-300 group">
+            <p className="text-lg text-center mb-6 text-gray-300">
               Our constitution outlines our organization's structure, mission, values, and governance principles. 
               It serves as a guide for our operations and ensures we maintain our commitment to serving the student community.
             </p>
             <div className="text-center">
               <a
-                href="/images/CONSTITUTION - SIKH STUDENTS ASSOCIATION, SHERIDAN COLLEGE.pdf"
+                href="/CONSTITUTION - SIKH STUDENTS ASSOCIATION, SHERIDAN COLLEGE.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition-colors"
+                className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-all duration-200 group-hover:translate-x-1 justify-center"
               >
-                Read Our Constitution
+                <span>Download Constitution (PDF)</span>
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                </svg>
               </a>
             </div>
           </div>
