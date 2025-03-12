@@ -67,7 +67,7 @@ const Footer = () => {
                   <span className="group-hover/link:translate-x-1 transform transition-transform duration-200">LinkedIn</span>
                 </a>
                 <a
-                  href="https://chat.whatsapp.com/KgIUbxDjkNz5uRg4c0UxgD"
+                  href="https://forms.office.com/r/ackW8bMdtn"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-2 text-gray-300 hover:text-blue-300 transition-all duration-200 group/link"
@@ -82,7 +82,22 @@ const Footer = () => {
         
         <div className="relative mt-12 pt-8 border-t border-blue-900/50">
           <div className="absolute inset-0 bg-gradient-to-r from-transparent via-blue-500/5 to-transparent"></div>
-          <p className="text-center text-gray-400 relative">&copy; {new Date().getFullYear()} Sikh Students Association - Sheridan. All rights reserved.</p>
+          <div className="text-center text-gray-400 relative space-y-4">
+            <p>&copy; {new Date().getFullYear()} Sikh Students Association - Sheridan. All rights reserved.</p>
+            <div>
+              <a
+                href="https://forms.office.com/r/fs7hvMjVt5"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:text-blue-300 transition-colors inline-flex items-center justify-center space-x-2"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+                </svg>
+                <span>Report Concerns Anonymously</span>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

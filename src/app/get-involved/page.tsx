@@ -97,7 +97,15 @@ export default function GetInvolved() {
                 </li>
                 <li className="flex items-start group/item">
                   <span className="font-bold mr-4 text-blue-300">3.</span>
-                  <p className="text-gray-200">Join our WhatsApp group to stay connected with the community</p>
+                  <p className="text-gray-200">Join our WhatsApp group: <a 
+                      href="https://forms.office.com/r/ackW8bMdtn" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="text-blue-400 hover:text-blue-300 transition-colors inline-flex items-center group-hover/item:translate-x-1 transform transition-transform duration-200"
+                    >
+                      Click here to join
+                    </a>
+                  </p>
                 </li>
               </ol>
               <div className="text-center mt-8">
